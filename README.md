@@ -14,7 +14,7 @@ When running mvn clean test inside an Azure VM or ACI - this will fail and give 
 Similarly - it will fail when running: mvn clean compile -PtestWait
 
 ```
-git clone https://github.com/sorinslavic/maven5minutetimeout/blob/master/run-mvn-clean-compile.sh
+git clone https://github.com/sorinslavic/maven5minutetimeout.git
 cd maven5minutetimeout
 
 ./run-mvn-clean-compile.sh
