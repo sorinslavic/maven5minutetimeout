@@ -20,7 +20,10 @@
         </dependency>
     </dependencies>
 
-   <build>
+    <profiles>
+        <profile>
+            <id>testWait</id>
+            <build>
                 <plugins>
                     <plugin>
                         <groupId>org.codehaus.mojo</groupId>
@@ -44,5 +47,7 @@
                     </plugin>
                 </plugins>
             </build>
+        </profile>
+    </profiles>
 
 </project>
