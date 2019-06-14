@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-echo "sleep 5 minutes"
+echo "$(date) - Running plugin to sleep 5 minutes"
 sleep 300
-echo "slept 5 minutes"
+echo "$(date) - slept 5 minutes"

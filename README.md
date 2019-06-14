@@ -12,3 +12,14 @@ There are 4 pom configurations:
 
 When running mvn clean test inside an Azure VM or ACI - this will fail and give a timeout for the third module.
 Similarly - it will fail when running: mvn clean compile -PtestWait
+
+```
+git clone https://github.com/sorinslavic/maven5minutetimeout/blob/master/run-mvn-clean-compile.sh
+cd maven5minutetimeout
+
+./run-mvn-clean-compile.sh
+
+or
+
+./run-mvn-clean-test.sh
+```
