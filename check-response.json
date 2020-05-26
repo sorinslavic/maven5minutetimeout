@@ -1,4 +1,4 @@
 {
-  "cancel": "false",
-  "fail": "false"
+  "cancel": false,
+  "fail": false
 }
